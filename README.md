@@ -1,5 +1,7 @@
 # Web Hacking
 
+![web-hacking](web-hacking.png)
+
 Web hacking is the exploitation of vulnerability that exists in a web application. This could leads unauthorised access to modify, delete, or access the data. Web hacking or bug bounty is carried out by series of phases.
 
 ## Stages of Web hacking

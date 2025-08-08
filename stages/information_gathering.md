@@ -63,6 +63,7 @@ Fingerprinting is identifying informations about target's application stack, sof
 - [bulitwith](https://builtwith.com/)
 - whatweb passive
 - wappalyzer extension
+- Google Fu is also used for effective information we can learn it by searching google search operator
 
 ## Discovering Email Address
 
