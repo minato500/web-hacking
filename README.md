@@ -4,7 +4,7 @@ Web hacking is the exploitation of vulnerability that exists in a web applicatio
 
 ## Stages of Web hacking
 
-- Information Gathering (Reconnaissance) - Collection information about the target without or with interaction
+- [Information Gathering](stages/information_gathering.md) (Reconnaissance) - Collection information about the target without or with interaction
 - Scanning and Enumeration - Identifying live hosts, open ports, technologies, subdomains and directories
 - Vulnerability Identification - Detecting potential weaknesses and misconfiguration
 - Gaining Access (Exploitation) - Using the identified vulnerabilities to compromise the system
