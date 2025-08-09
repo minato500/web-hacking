@@ -93,5 +93,3 @@ Parameter enumeration is used to find the valid parameters that web application 
 ```
 ffuf -u "https://target_url/page?FUZZ=value" -w params.txt
 ```
-```
-```
