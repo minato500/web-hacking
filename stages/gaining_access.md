@@ -8,13 +8,12 @@ Here the vulnerabilities includes
 - Access Control Vulnerabilities
 - Authentication Vulnerabilities
 - SQL Injection
-- Path Traversal
+- LFI and RFI
 - Cross-Site Request Forgery (CSRF)
 - Server-Side Request Forgery (SSRF)
 - Remote Code Execution (RCE)
 - Command Injection
-- JWT
-- File Upload Vulnerability
+- File Upload Vulnerabilities 
 
 ## Short Introduction
 
@@ -25,8 +24,8 @@ Injecting malicious JavaScript into web pages to steal cookies or session tokens
 ```
 // example for Reflected XSS
 <script>alert("Hehe...")</script>
-
 ```
+
 ### Access Control Vulnerabilities
 
 Access control vulnerabilities are where the unintended user or lower privileged user can access and manage the resources (ie can access, modify and delete the data) that are only intent to high privileged users 
@@ -57,3 +56,46 @@ It is bypass using the SQLi
 // By entering the payload in username field
 admin' OR '1'='1';
 ```
+
+### LFI and RFI
+
+Including local or remote files to execute code or view sensitive files. It mainly done to read the configuration files and sensitive files in the server 
+
+```
+// image loaded in a webpage by 
+https://target_url/images?filename=image_name.png 
+
+// LFI 
+https://target_url/images?filename=../../../etc/passwd 
+```
+
+### Cross-Site Request Forgery (CSRF)
+
+Cross-Site Request Forgery is an attack that forces authenticated users to submit a request to a web application against which they are currently authenticated
+
+### Server-Side Request Forgery (SSRF) 
+
+Server-Side Request Forgery is making a server into making unintended requests to internal or external resources. It make the attacker to access the admin dashboard or the database. This could be done in chain of vulnerabilities (example along with Remote Code Execution)
+
+### Remote Code Execution (RCE)
+
+RCE is used execute arbitrary code or commands on a remote server to gain unauthorised access to the server. It also exploit based on the web application trusts the user input. It could lead to compromise of the server.
+
+### Command Injection
+
+Command Injection is executing os level commands through insecure input handling. It generally occurs due the user blindly trusts the user input. It leads to compromise the target server 
+
+### File Upload Vulnerabilities
+
+A file upload vulnerability occurs when a web application allows users to upload files without proper validation and sanitization, enabling attackers to upload malicious files (example web shells, scripts) that can be executed on the server. Usually it is done by Web shell, Reverse shell. A web shell is a malicious script uploaded to a server that lets an attacker execute commands remotely through a web browser. A reverse shell is a connection where the target machine or server connect back to the attacker’s system, giving the attacker remote command-line access.
+
+**Web shell example**
+
+```
+<?php echo system($_GET['cmd']);  ?>
+```
+
+**Reverse Shell**
+
+It done by using [php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell)
+
