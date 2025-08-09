@@ -81,3 +81,17 @@ Tools used for banner grabbing are
 - netcat 
 - burp suite
 
+### Parameter Enumeration
+
+Parameter enumeration is used to find the valid parameters that web application used to pass data between the client and the server. Discovering is useful because some parameter may be misconfigured which leads sensitive date 
+
+**Tools used**
+
+- [arjun](https://github.com/s0md3v/Arjun)
+- [ffuf](https://github.com/ffuf/ffuf) 
+
+```
+ffuf -u "https://target_url/page?FUZZ=value" -w params.txt
+```
+```
+```
