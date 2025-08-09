@@ -61,7 +61,7 @@ Active subdomain enumerations involves the aggressive scan the subdomain against
 Fingerprinting is identifying informations about target's application stack, software and configurations. It also done in both active and passive recon. Passive reconnaissance involves without interactions by 
 
 - [bulitwith](https://builtwith.com/)
-- whatweb passive
+- whatweb
 - wappalyzer extension
 - Google Fu is also used for effective information we can learn it by searching google search operator
 
