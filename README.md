@@ -8,7 +8,7 @@ Web hacking is the exploitation of vulnerability that exists in a web applicatio
 
 - [Information Gathering](stages/information_gathering.md) (Reconnaissance) - Collection information about the target without or with interaction
 - [Scanning and Enumeration](stages/scanning_and_enumeration.md) - Identifying live hosts, open ports, technologies, subdomains and directories
-- Vulnerability Identification - Detecting potential weaknesses and misconfiguration
+- [Vulnerability Identification](stages/vulnerability_identification.md) - Detecting potential weaknesses and misconfiguration
 - Gaining Access (Exploitation) - Using the identified vulnerabilities to compromise the system
 - Reporting (for bug bounty) - Documenting the findings with Proof Of Concept (POC) and remediation steps
 
