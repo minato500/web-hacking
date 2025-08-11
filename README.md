@@ -16,7 +16,7 @@ Web hacking is the exploitation of vulnerability that exists in a web applicatio
 
 - [Cross-Site Scripting (XSS)](vulnerabilities/cross_site_scripting.md)
 - [Access Control Vulnerabilities](vulnerabilities/access_control.md)
-- Authentication Vulnerabilities
+- [Authentication Vulnerabilities](authentication.md)
 - SQL Injection
 - Path Traversal
 - Cross-Site Request Forgery (CSRF)
