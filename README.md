@@ -20,7 +20,7 @@ Web hacking is the exploitation of vulnerability that exists in a web applicatio
 - SQL Injection
 - Path Traversal
 - Cross-Site Request Forgery (CSRF)
-- Server-Side Request Forgery (SSRF)
+- [Server-Side Request Forgery (SSRF)](vulnerabilities/ssrf.md)
 - Command Injection
 - JWT 
 - File Upload Vulnerability
