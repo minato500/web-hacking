@@ -10,7 +10,7 @@ Web hacking is the exploitation of vulnerability that exists in a web applicatio
 - [Scanning and Enumeration](stages/scanning_and_enumeration.md) - Identifying live hosts, open ports, technologies, subdomains and directories
 - [Vulnerability Identification](stages/vulnerability_identification.md) - Detecting potential weaknesses and misconfiguration
 - [Gaining Access](stages/gaining_access.md) (Exploitation) - Using the identified vulnerabilities to compromise the system
-- Reporting (for bug bounty) - Documenting the findings with Proof Of Concept (POC) and remediation steps
+- [Reporting](stages/report.md) (for bug bounty) - Documenting the findings with Proof Of Concept (POC) and remediation steps
 
 ## Top Web Application Vulnerability
 
